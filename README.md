@@ -28,6 +28,14 @@ Obsidian-specific CSS implementation is maintained separately.
 
 See [NOTICE](./NOTICE) for license attribution.
 
+## Maintainer transfer
+
+If this theme is transferred to a different maintainer or repository, update the
+`repo` entry for `0x96f` in
+[`obsidianmd/obsidian-releases`](https://github.com/obsidianmd/obsidian-releases)'s
+`community-css-themes.json` so Obsidian's community theme browser continues to
+resolve releases from the canonical repository.
+
 ## License
 
 MIT
