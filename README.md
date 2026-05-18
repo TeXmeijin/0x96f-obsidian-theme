@@ -9,8 +9,7 @@ Obsidian-specific CSS implementation is maintained separately.
 
 ## Preview
 
-Screenshots will be added before publishing to the Obsidian community theme
-store.
+![0x96f theme screenshot](./screenshot.png)
 
 ## Installation
 
