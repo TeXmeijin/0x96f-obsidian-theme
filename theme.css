@@ -66,7 +66,7 @@ Palette adapted from filipjanevski/0x96f.nvim.
   --text-error-hover: var(--ox96f-red-light);
   --text-success: var(--ox96f-green-light);
   --text-warning: var(--ox96f-orange);
-  --text-selection: transparent;
+  --text-selection: var(--ox96f-selection);
   --text-highlight-bg: color-mix(in srgb, var(--ox96f-yellow) 24%, transparent);
   --text-highlight-bg-active: color-mix(in srgb, var(--ox96f-orange) 30%, transparent);
 
@@ -184,6 +184,14 @@ body {
 
 ::selection {
   background: var(--ox96f-selection);
+  color: var(--ox96f-fg-bright);
+}
+
+.cm-editor .cm-selectionBackground,
+.cm-focused .cm-selectionBackground,
+.markdown-source-view.mod-cm6 .cm-selectionBackground,
+.markdown-source-view.mod-cm6 .cm-content ::selection {
+  background-color: var(--ox96f-selection) !important;
   color: var(--ox96f-fg-bright);
 }
 
